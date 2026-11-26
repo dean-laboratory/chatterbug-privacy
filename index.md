@@ -1,6 +1,9 @@
 ---
 title: Chatterbug 개인정보처리방침
+lang: ko
 ---
+
+한국어 | [English](en/) | [日本語](ja/)
 
 # Chatterbug 개인정보처리방침
 
@@ -76,4 +79,4 @@ Google Drive를 연결하지 않아도 앱의 모든 학습 기능을 쓸 수 �
 
 ## 8. 방침의 변경
 
-앱에 새 기능이 추가되어 다루는 정보가 바뀌면 이 방침을 고치고, 시행일 7일 전에 이 페이지에 알립니다. 이전 방침은 이 페이지의 [변경 기록](https://github.com/dean-laboratory/chatterbug-privacy/commits/main/index.md)에서 볼 수 있습니다.
+앱에 새 기능이 추가되어 다루는 정보가 바뀌면 이 방침을 고치고, 시행일 7일 전에 이 페이지에 알립니다. 한국어, 영어, 일본어 방침의 내용이 서로 다르면 한국어 방침을 따릅니다. 이전 방침은 [변경 기록](https://github.com/dean-laboratory/chatterbug-privacy/commits/main)에서 볼 수 있습니다.
