@@ -18,6 +18,7 @@ lang: en
 - Learning records are stored on your device. Only if you connect Google Drive are they also stored in an app-only area of your own Google Drive. We cannot see these records.
 - The app has no advertising, analytics or crash reporting tools.
 - The app does not use the microphone and does not record or store your child's voice or photos.
+- AI conversation writing happens only on your device. The app connects to Hugging Face servers only to download an AI model file.
 
 ## 2. Information the app handles
 
@@ -51,6 +52,14 @@ All learning features work without connecting Google Drive. In that case, record
 ### 2.3 Reading sentences aloud
 
 When you tap the speaker button, or when a new sentence appears in a conversation, the app sends the English sentence to the text-to-speech (TTS) engine installed on your device to read it aloud. Only the English sentence shown on screen is sent, and the engine is the one chosen by your device maker or by you. How that engine handles information follows its provider's policy.
+
+### 2.4 Writing conversations with AI
+
+The app can write the parent sentences of the next conversation with an AI model on your device. The model only receives the English sentences of that conversation and their Korean translations, and all processing happens on the device. Learning records and conversations are not sent to us or to any model provider.
+
+- If your device provides Gemini Nano, the app uses the model in the Android system (AICore), which is managed by the device maker and Google.
+- On other devices, and only if you agree, the app downloads a public AI model file (Gemma or Qwen) from Hugging Face. To download the file, the device connects to Hugging Face servers, which may process connection information such as your IP address under the [Hugging Face Privacy Policy](https://huggingface.co/privacy). The app does not use a Hugging Face account and sends no other information.
+- The downloaded model file is stored in the app's private storage on your device and is deleted when you uninstall the app.
 
 ## 3. Sharing and processors
 
